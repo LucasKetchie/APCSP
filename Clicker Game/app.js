@@ -1,8 +1,8 @@
 let bananaImg
-let heading()
+let heading
 function setup(){
 createCanvas(windowWidth,indowHeight)
-bananaimg = createImg('banana.png', 'banana image')
+bananaImg = createImg('banana.png', 'banana image')
 bananaImg.size(200,100)
 heading = createElement('h2', 'Click the Banana!')
 heading.position(width/3,height/4)
